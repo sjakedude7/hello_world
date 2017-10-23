@@ -1,4 +1,5 @@
 // a simple program to practice common Github commands 
+import java.util.Scanner;
 
 public class hello {
 
@@ -8,9 +9,12 @@ public class hello {
 	// added  line	
 
         System.out.println("Hello Class!");
-	System.out.println("Edited by Jake Stephens");
 
+        Scanner scnr = new Scanner(System.in);
 
+        String name = scnr.next();
+        
+        System.out.println("Hello " + name + ", my name is Alice");
     }
 }
 
