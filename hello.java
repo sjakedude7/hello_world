@@ -8,7 +8,7 @@ public class hello {
 	// added  line	
 
         System.out.println("Hello Class!");
-
+	System.out.println("Edited by Jake Stephens");
 
 
     }
